@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "1_AppToRenumber"
+		},
+		{
+			"path": "2_CreateNewTempApp"
+		},
+		{
+			"path": "3_RenumberedApp"
+		}
+	],
+	"settings": {}
+}
