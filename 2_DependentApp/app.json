@@ -1,8 +1,8 @@
 {
   "id": "193c57b9-add6-4368-9f2c-3a1523b95f15",
-  "name": "TempApp",
+  "name": "Dependent App",
   "publisher": "waldo",
-  "version": "1.0.0.3",
+  "version": "1.0.0.2",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -13,7 +13,7 @@
   "dependencies": [
     {
       "id": "d4ce34f7-b40b-40b3-a861-a32902b51b4d",
-      "name": "1_AppToRenumber",
+      "name": "Original App",
       "publisher": "waldo",
       "version": "1.0.0.0"
     }

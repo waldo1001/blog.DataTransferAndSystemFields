@@ -1,4 +1,4 @@
-codeunit 60000 "Upgrade PTA"
+codeunit 60000 "Upgrade With DataTransfer PTA"
 {
     Subtype = Upgrade;
 
@@ -66,7 +66,9 @@ codeunit 60000 "Upgrade PTA"
         repeat
             DT.AddFieldValue(Flds."No.", GetRenumberedId(Flds."No."));
         until Flds.Next() < 1;
-        dt.AddFieldValue(2000000000, 60149); //SystemId
+        // dt.AddFieldValue(2000000000, 2000000000); //SystemId - NOT possible
+        // dt.AddFieldValue(2000000003, 2000000003); //SystemModifiedAt - NOT possible
+        // dt.AddFieldValue(2000000000, 60149); //SystemId to New field - this IS possible
         dt.UpdateAuditFields(false);
         dt.CopyRows();
 

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "1_OriginalApp"
+		},
+		{
+			"path": "2_DependentApp"
+		},
+		{
+			"path": "Scripts"
+		}
+	],
+	"settings": {}
+}
